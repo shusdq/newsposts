@@ -1,0 +1,116 @@
+2023-10-25T12:35:05.865Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:05.879Z warn: Error: Unauthorized
+2023-10-25T12:35:06.009Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:06.013Z warn: Error: Unauthorized
+2023-10-25T12:35:06.451Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:06.454Z warn: Error: Unauthorized
+2023-10-25T12:35:06.459Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:06.462Z warn: Error: Unauthorized
+2023-10-25T12:35:06.875Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:06.877Z warn: Error: Unauthorized
+2023-10-25T12:35:06.881Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:06.883Z warn: Error: Unauthorized
+2023-10-25T12:35:07.081Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:07.083Z warn: Error: Unauthorized
+2023-10-25T12:35:07.088Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:07.090Z warn: Error: Unauthorized
+2023-10-25T12:35:07.683Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-25T12:35:07.685Z warn: Error: Unauthorized
+2023-10-25T12:35:08.087Z info: Method: GET, URL: /newsposts?page=2&size=3
+2023-10-25T12:35:08.089Z warn: Error: Unauthorized
+2023-10-25T12:35:08.408Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-25T12:35:08.410Z warn: Error: Unauthorized
+2023-10-25T12:35:09.294Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:09.297Z warn: Error: Unauthorized
+2023-10-25T12:35:09.307Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:09.309Z warn: Error: Unauthorized
+2023-10-25T12:35:21.375Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-25T12:35:21.570Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T12:35:21.605Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:39:47.497Z info: Method: GET, URL: /newsposts/21
+2023-10-25T15:39:47.509Z info: Method: GET, URL: /newsposts/21
+2023-10-25T15:39:47.521Z warn: Error: Unauthorized
+2023-10-25T15:39:47.537Z warn: Error: Unauthorized
+2023-10-25T15:39:48.922Z info: Method: GET, URL: /newsposts/21
+2023-10-25T15:39:48.924Z warn: Error: Unauthorized
+2023-10-25T15:39:48.929Z info: Method: GET, URL: /newsposts/21
+2023-10-25T15:39:48.931Z warn: Error: Unauthorized
+2023-10-25T15:39:51.254Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:39:51.256Z warn: Error: Unauthorized
+2023-10-25T15:39:51.259Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:39:51.261Z warn: Error: Unauthorized
+2023-10-25T15:39:58.081Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-25T15:39:58.330Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:39:58.338Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:54:35.932Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:54:35.935Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:56:32.702Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:56:32.706Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:59:36.617Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T15:59:36.619Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:15.455Z info: Method: POST, URL: /newsposts, Body: {"title":"","text":"","genre":"Other","isPrivate":false}
+2023-10-25T16:00:18.006Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:18.009Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:21.300Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:00:21.305Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:00:22.958Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:22.960Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:25.087Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-25T16:00:25.841Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:00:27.801Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:00:27.806Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:01:53.975Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:01:57.660Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:01:57.661Z info: Method: GET, URL: /newsposts/21
+2023-10-25T16:02:04.776Z info: Method: DELETE, URL: /newsposts/21
+2023-10-25T16:02:04.826Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:02:04.831Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:02:08.102Z info: Method: GET, URL: /newsposts/24
+2023-10-25T16:02:08.107Z info: Method: GET, URL: /newsposts/24
+2023-10-25T16:02:28.981Z info: Method: GET, URL: /newsposts/24
+2023-10-25T16:02:46.930Z info: Method: GET, URL: /newsposts/24
+2023-10-25T16:02:56.677Z info: Method: DELETE, URL: /newsposts/24
+2023-10-25T16:02:56.721Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:02:56.726Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:03:51.450Z info: Method: GET, URL: /newsposts/login]
+2023-10-25T16:03:51.453Z info: Method: GET, URL: /newsposts/login]
+2023-10-25T16:03:51.540Z error: Message: неприпустимий синтаксис для типу integer: "login]", Stack: QueryFailedError: неприпустимий синтаксис для типу integer: "login]"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-25T16:03:51.545Z error: Message: неприпустимий синтаксис для типу integer: "login]", Stack: QueryFailedError: неприпустимий синтаксис для типу integer: "login]"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-25T16:05:48.179Z info: Method: GET, URL: /newsposts/login]
+2023-10-25T16:05:48.181Z info: Method: GET, URL: /newsposts/login]
+2023-10-25T16:05:48.257Z error: Message: неприпустимий синтаксис для типу integer: "login]", Stack: QueryFailedError: неприпустимий синтаксис для типу integer: "login]"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-25T16:05:48.266Z error: Message: неприпустимий синтаксис для типу integer: "login]", Stack: QueryFailedError: неприпустимий синтаксис для типу integer: "login]"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-14\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-25T16:05:49.136Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:05:49.141Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:05:50.173Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:05:50.179Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:05:55.981Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-25T16:05:55.986Z info: Method: GET, URL: /newsposts?page=0&size=3

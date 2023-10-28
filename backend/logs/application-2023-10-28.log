@@ -1,0 +1,207 @@
+2023-10-28T11:35:01.137Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:35:01.152Z warn: Error: Unauthorized
+2023-10-28T11:35:01.259Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:35:01.264Z warn: Error: Unauthorized
+2023-10-28T11:35:10.265Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:35:12.580Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:35:12.942Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:35:13.501Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:35:17.375Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:35:17.680Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:37:13.463Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:43:10.223Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:43:10.696Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:43:11.240Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:44:05.173Z info: Method: POST, URL: /auth/login, Body: {"email":"test6@gmail.com","password":"test"}
+2023-10-28T11:44:12.178Z info: Method: POST, URL: /auth/register, Body: {"email":"test6@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-28T11:44:12.224Z error: Message: relation "user" does not exist, Stack: QueryFailedError: relation "user" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\AuthController.js:51:33)
+2023-10-28T11:45:16.150Z info: Method: POST, URL: /auth/login, Body: {"email":"test6@gmail.com","password":"test"}
+2023-10-28T11:45:23.129Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:45:23.223Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:45:23.229Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:45:23.255Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:45:23.377Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:45:25.537Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:45:25.539Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:45:25.561Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:45:25.571Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:46:05.294Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:46:05.302Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:46:05.347Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:46:05.555Z error: Message: стовпець newspost.title не існує, Stack: QueryFailedError: стовпець newspost.title не існує
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:47:33.826Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:47:33.844Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:48:32.419Z info: Method: GET, URL: /newsposts/22
+2023-10-28T11:48:32.438Z info: Method: GET, URL: /newsposts/22
+2023-10-28T11:48:32.482Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-28T11:48:32.660Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-28T11:48:38.762Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:48:38.764Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:48:38.806Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:48:38.810Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:48:40.792Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:48:41.245Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:49:20.970Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:52:32.926Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:52:55.983Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:52:56.037Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:52:56.158Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:52:56.198Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:53:24.001Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:53:47.503Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:53:58.833Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:55:21.899Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:58:59.658Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T11:58:59.760Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:58:59.784Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:59:06.955Z info: Method: GET, URL: /newsposts/22
+2023-10-28T11:59:06.967Z info: Method: GET, URL: /newsposts/22
+2023-10-28T11:59:11.227Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:59:11.281Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T11:59:11.287Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T11:59:11.383Z error: Message: relation "newspost" does not exist, Stack: QueryFailedError: relation "newspost" does not exist
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeCountQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1706:25)
+    at async SelectQueryBuilder.getCount (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:770:29)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\dal\newsposts\newsposts.repository.js:21:31)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\newsposts\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-28T12:01:09.374Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:09.481Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:10.954Z info: Method: GET, URL: /newsposts/22
+2023-10-28T12:01:10.996Z info: Method: GET, URL: /newsposts/22
+2023-10-28T12:01:12.104Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:12.180Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:13.734Z info: Method: POST, URL: /auth/login, Body: {"email":"test123123123@gmail.com","password":"123"}
+2023-10-28T12:01:13.778Z error: Message: undefined, Stack: undefined
+2023-10-28T12:01:31.157Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"123","confirmPassword":"123"}
+2023-10-28T12:01:31.433Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:31.529Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:01:56.231Z info: Method: POST, URL: /auth/register, Body: {"email":"test6@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-28T12:02:02.222Z info: Method: POST, URL: /auth/login, Body: {"email":"test6@gmail.com","password":"test"}
+2023-10-28T12:02:20.759Z info: Method: GET, URL: /newsposts
+2023-10-28T12:02:26.387Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:29.380Z info: Method: GET, URL: /newsposts
+2023-10-28T12:02:36.369Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:36.929Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:37.976Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:38.586Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:39.158Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:39.681Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:40.211Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:40.780Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:41.271Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-28T12:02:43.135Z info: Method: GET, URL: /newsposts
+2023-10-28T12:02:48.836Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-28T12:02:48.950Z info: Method: GET, URL: /newsposts?page=0&size=3
